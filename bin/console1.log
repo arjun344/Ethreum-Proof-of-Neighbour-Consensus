@@ -1,0 +1,763 @@
+INFO [04-11|11:50:41.051] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [04-11|11:50:41.081] Starting peer-to-peer node               instance=Geth/v1.9.12-unstable/linux-amd64/go1.13.3
+INFO [04-11|11:50:41.082] Allocated trie memory caches             clean=256.00MiB dirty=256.00MiB
+INFO [04-11|11:50:41.082] Allocated cache and file handles         database=/root/go/bin/node1/geth/chaindata cache=512.00MiB handles=524288
+INFO [04-11|11:50:41.278] Opened ancient database                  database=/root/go/bin/node1/geth/chaindata/ancient
+INFO [04-11|11:50:41.278] Initialised chain configuration          config="{ChainID: 15 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: <nil> Istanbul: <nil>, Muir Glacier: <nil>, Engine: unknown}"
+INFO [04-11|11:50:41.278] Disk storage enabled for ethash caches   dir=/root/go/bin/node1/geth/ethash count=3
+INFO [04-11|11:50:41.278] Disk storage enabled for ethash DAGs     dir=/root/.ethash                  count=2
+INFO [04-11|11:50:41.279] Initialising Ethereum protocol           versions="[65 64 63]" network=1234 dbversion=7
+INFO [04-11|11:50:41.281] Loaded most recent local header          number=4 hash=ba5bd1…40a1dc td=4 age=7m32s
+INFO [04-11|11:50:41.281] Loaded most recent local full block      number=4 hash=ba5bd1…40a1dc td=4 age=7m32s
+INFO [04-11|11:50:41.281] Loaded most recent local fast block      number=4 hash=ba5bd1…40a1dc td=4 age=7m32s
+INFO [04-11|11:50:41.281] Loaded local transaction journal         transactions=0 dropped=0
+INFO [04-11|11:50:41.282] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [04-11|11:50:41.282] Switch sync mode from fast sync to full sync 
+INFO [04-11|11:50:41.449] New local node record                    seq=3 id=ff1c0278df5493e6 ip=127.0.0.1 udp=30303 tcp=30303
+INFO [04-11|11:50:41.452] Started P2P networking                   self=enode://5e9943e519fce75f6a0883016f8cb977d7827ccdd49798f2a65e536dc937433a4cd1808a35d282b98e475ccc745a1e51c5c8ec7b53bed782ef35bc3b20451ba5@127.0.0.1:30303
+INFO [04-11|11:50:41.456] IPC endpoint opened                      url=/root/go/bin/node1/geth.ipc
+INFO [04-11|11:50:41.458] HTTP endpoint opened                     url=http://127.0.0.1:8543       cors=* vhosts=localhost
+INFO [04-11|11:50:41.649] Etherbase automatically configured       address=0xf3353f28F0CcAab3cCEfA1a41aBBD3E6DD01751a
+WARN [04-11|11:50:47.129] System clock seems off by 5h29m58.921784773s, which can prevent network connectivity 
+WARN [04-11|11:50:47.129] Please enable network time synchronisation in system settings. 
+INFO [04-11|11:51:16.452] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-11|11:51:26.656] Updated mining threads                   threads=1
+INFO [04-11|11:51:26.656] Transaction pool price threshold updated price=1000000000
+INFO [04-11|11:51:26.656] Committing new mining work               number=5 sealhash=823cb6…297384 uncles=0 txs=0 gas=0 fees=0 elapsed=409.794µs
+WARN [04-11|11:51:26.657] Sealing paused, waiting for transactions 
+INFO [04-11|11:51:46.106] Setting new local account                address=0xf3353f28F0CcAab3cCEfA1a41aBBD3E6DD01751a
+INFO [04-11|11:51:46.107] Submitted contract creation              fullhash=0x0b6b62e134d686cf58b358a93e41f53d340c6b9acd136723694197335ccb879e contract=0x5F5cC5332cF7080215E6844694Eeb2C2B8Ce6f05
+INFO [04-11|11:51:47.659] Committing new mining work               number=5 sealhash=9b3e31…e600a5 uncles=0 txs=1 gas=3682254 fees=0.003682254 elapsed=1.384ms
+INFO [04-11|11:51:54.291] Successfully sealed new block            number=5 sealhash=9b3e31…e600a5 hash=f37980…40d25f elapsed=6.631s
+INFO [04-11|11:51:54.291] 🔨 mined potential block                  number=5 hash=f37980…40d25f
+INFO [04-11|11:51:54.292] Committing new mining work               number=6 sealhash=bc2940…d729d9 uncles=0 txs=0 gas=0       fees=0           elapsed=483.275µs
+WARN [04-11|11:51:54.292] Sealing paused, waiting for transactions 
+INFO [04-11|11:56:40.744] Submitted transaction                    fullhash=0xd00ec8eca9cb0aaf49dbfe2851ab1fe73c57b6e5a3003e73331a53dcb3889a1d recipient=0x5F5cC5332cF7080215E6844694Eeb2C2B8Ce6f05
+INFO [04-11|11:56:42.322] Committing new mining work               number=6 sealhash=f0229f…b2f598 uncles=0 txs=1 gas=161669  fees=0.000161669 elapsed=1.877ms
+INFO [04-11|11:56:50.783] Successfully sealed new block            number=6 sealhash=f0229f…b2f598 hash=f93026…6914ab elapsed=8.461s
+INFO [04-11|11:56:50.783] 🔨 mined potential block                  number=6 hash=f93026…6914ab
+INFO [04-11|11:56:50.783] Committing new mining work               number=7 sealhash=1eb23f…9f84e8 uncles=0 txs=0 gas=0       fees=0           elapsed=425.889µs
+WARN [04-11|11:56:50.783] Sealing paused, waiting for transactions 
+INFO [04-11|12:13:36.825] Submitted transaction                    fullhash=0xc112921f73dd81a50115a5f86f76c43dfb2f5bd573677490e083683a19146243 recipient=0x5F5cC5332cF7080215E6844694Eeb2C2B8Ce6f05
+INFO [04-11|12:13:38.941] Committing new mining work               number=7 sealhash=e793a4…e747a6 uncles=0 txs=1 gas=200193  fees=0.000200193 elapsed=1.449ms
+INFO [04-11|12:13:45.697] Successfully sealed new block            number=7 sealhash=e793a4…e747a6 hash=bff348…6981da elapsed=6.756s
+INFO [04-11|12:13:45.697] 🔨 mined potential block                  number=7 hash=bff348…6981da
+INFO [04-11|12:13:45.698] Committing new mining work               number=8 sealhash=dafe32…f33a3f uncles=0 txs=0 gas=0       fees=0           elapsed=353.904µs
+WARN [04-11|12:13:45.698] Sealing paused, waiting for transactions 
+INFO [04-11|12:20:42.152] Looking for peers                        peercount=0 tried=0 static=0
+WARN [04-11|12:20:47.960] System clock seems off by 5h29m58.877873032s, which can prevent network connectivity 
+WARN [04-11|12:20:47.961] Please enable network time synchronisation in system settings. 
+INFO [04-11|12:21:17.153] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-11|12:23:23.885] Submitted transaction                    fullhash=0x5683f0f99d6afb1b1a70cccb923bb56d8611e761d4ee0c22ff09533b4cbabedb recipient=0x5F5cC5332cF7080215E6844694Eeb2C2B8Ce6f05
+INFO [04-11|12:23:24.755] Committing new mining work               number=8 sealhash=359081…6907f4 uncles=0 txs=1 gas=156332  fees=0.000156332 elapsed=1.386ms
+INFO [04-11|12:23:31.386] Successfully sealed new block            number=8 sealhash=359081…6907f4 hash=960f04…f9af3a elapsed=6.631s
+INFO [04-11|12:23:31.387] 🔨 mined potential block                  number=8 hash=960f04…f9af3a
+INFO [04-11|12:23:31.387] Committing new mining work               number=9 sealhash=de5bee…887425 uncles=0 txs=0 gas=0       fees=0           elapsed=561.969µs
+WARN [04-11|12:23:31.387] Sealing paused, waiting for transactions 
+INFO [04-11|12:50:41.282] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-11|12:50:42.354] Looking for peers                        peercount=0 tried=0 static=0
+WARN [04-11|12:50:47.856] System clock seems off by 5h29m58.844056032s, which can prevent network connectivity 
+WARN [04-11|12:50:47.856] Please enable network time synchronisation in system settings. 
+INFO [04-11|12:51:17.355] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-11|13:00:20.758] Submitted transaction                    fullhash=0x278d31e9c2ca42aed6cd1ecea92bbac9fba9be192ed78197a53ee744fe7f7d10 recipient=0x5F5cC5332cF7080215E6844694Eeb2C2B8Ce6f05
+INFO [04-11|13:00:22.624] Committing new mining work               number=9 sealhash=e1a4dd…f1af0d uncles=0 txs=1 gas=185001  fees=0.000185001 elapsed=1.510ms
+INFO [04-11|13:00:29.329] Successfully sealed new block            number=9 sealhash=e1a4dd…f1af0d hash=45cbbd…af945c elapsed=6.705s
+INFO [04-11|13:00:29.329] 🔨 mined potential block                  number=9 hash=45cbbd…af945c
+INFO [04-11|13:00:29.329] Committing new mining work               number=10 sealhash=1d34da…3fde68 uncles=0 txs=0 gas=0       fees=0           elapsed=451.978µs
+WARN [04-11|13:00:29.330] Sealing paused, waiting for transactions 
+INFO [04-11|13:01:27.306] Submitted transaction                    fullhash=0x1c65e21a939e8f4fbd02a82671860be3a1867fcf27206f0440e9d8556fb4de0a recipient=0x5F5cC5332cF7080215E6844694Eeb2C2B8Ce6f05
+INFO [04-11|13:01:29.336] Committing new mining work               number=10 sealhash=19a8c5…fc5965 uncles=0 txs=1 gas=147392  fees=0.000147392 elapsed=1.488ms
+INFO [04-11|13:01:35.909] Successfully sealed new block            number=10 sealhash=19a8c5…fc5965 hash=48eb69…29cdbe elapsed=6.573s
+INFO [04-11|13:01:35.909] 🔨 mined potential block                  number=10 hash=48eb69…29cdbe
+INFO [04-11|13:01:35.910] Committing new mining work               number=11 sealhash=dee872…d24eaa uncles=0 txs=0 gas=0       fees=0           elapsed=380.916µs
+WARN [04-11|13:01:35.910] Sealing paused, waiting for transactions 
+INFO [04-11|13:11:58.348] Submitted transaction                    fullhash=0x0161578b8f97dc8a94ba8dd09ab62cc7f3bb2b0a16491c6542492cf620e109b6 recipient=0x5F5cC5332cF7080215E6844694Eeb2C2B8Ce6f05
+INFO [04-11|13:11:59.975] Committing new mining work               number=11 sealhash=90e031…491b8d uncles=0 txs=1 gas=185705  fees=0.000185705 elapsed=1.490ms
+INFO [04-11|13:12:06.731] Successfully sealed new block            number=11 sealhash=90e031…491b8d hash=2c6637…cacf6c elapsed=6.755s
+INFO [04-11|13:12:06.731] 🔨 mined potential block                  number=11 hash=2c6637…cacf6c
+INFO [04-11|13:12:06.732] Committing new mining work               number=12 sealhash=824796…8a38da uncles=0 txs=0 gas=0       fees=0           elapsed=387.974µs
+WARN [04-11|13:12:06.733] Sealing paused, waiting for transactions 
+INFO [04-11|13:12:06.733] Committing new mining work               number=12 sealhash=824796…8a38da uncles=0 txs=0 gas=0       fees=0           elapsed=1.416ms
+INFO [04-11|13:12:56.445] Submitted transaction                    fullhash=0xa37b4f7523ed73384428a9999e8b78b6c97adbd614e07f77072da7115464152f recipient=0x5F5cC5332cF7080215E6844694Eeb2C2B8Ce6f05
+INFO [04-11|13:12:57.737] Committing new mining work               number=12 sealhash=ffc0a0…b1fa4d uncles=0 txs=1 gas=132456  fees=0.000132456 elapsed=1.385ms
+INFO [04-11|13:13:04.367] Successfully sealed new block            number=12 sealhash=ffc0a0…b1fa4d hash=5c86fb…a0be62 elapsed=6.630s
+INFO [04-11|13:13:04.367] 🔗 block reached canonical chain          number=5  hash=f37980…40d25f
+INFO [04-11|13:13:04.367] 🔨 mined potential block                  number=12 hash=5c86fb…a0be62
+INFO [04-11|13:13:04.367] Committing new mining work               number=13 sealhash=30cf69…c83f8f uncles=0 txs=0 gas=0       fees=0           elapsed=390.757µs
+WARN [04-11|13:13:04.368] Sealing paused, waiting for transactions 
+INFO [04-11|13:13:20.210] Submitted transaction                    fullhash=0x6427c619e0d4bb59ff709aad34abc3ac85ba5c8b3b56994b6690a132489e6ff1 recipient=0x5F5cC5332cF7080215E6844694Eeb2C2B8Ce6f05
+INFO [04-11|13:13:22.370] Committing new mining work               number=13 sealhash=1d5fd1…f26074 uncles=0 txs=1 gas=132456  fees=0.000132456 elapsed=1.207ms
+INFO [04-11|13:13:46.875] Successfully sealed new block            number=13 sealhash=1d5fd1…f26074 hash=54f714…0cd1db elapsed=24.505s
+INFO [04-11|13:13:46.876] 🔗 block reached canonical chain          number=6  hash=f93026…6914ab
+INFO [04-11|13:13:46.876] 🔨 mined potential block                  number=13 hash=54f714…0cd1db
+INFO [04-11|13:13:46.876] Committing new mining work               number=14 sealhash=7765ee…769a34 uncles=0 txs=0 gas=0       fees=0           elapsed=463.204µs
+WARN [04-11|13:13:46.876] Sealing paused, waiting for transactions 
+INFO [04-11|13:20:41.574] Looking for peers                        peercount=0 tried=0 static=0
+WARN [04-11|13:20:47.608] System clock seems off by 5h29m58.82149284s, which can prevent network connectivity 
+WARN [04-11|13:20:47.608] Please enable network time synchronisation in system settings. 
+INFO [04-11|13:21:16.575] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-11|13:50:41.282] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-11|13:50:41.814] Looking for peers                        peercount=0 tried=0 static=0
+WARN [04-11|13:50:47.821] System clock seems off by 5h29m58.742867276s, which can prevent network connectivity 
+WARN [04-11|13:50:47.821] Please enable network time synchronisation in system settings. 
+INFO [04-11|13:51:16.814] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-11|14:20:42.058] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-11|14:21:17.059] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-11|14:50:41.282] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-11|14:50:42.322] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-11|14:51:17.322] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-11|15:20:41.541] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-11|15:21:16.542] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-11|15:35:25.903] Submitted transaction                    fullhash=0xfee1521f01d9935190bf53d7176cb44d8423f4268c5adbd655dcffa4ccc5d650 recipient=0x5F5cC5332cF7080215E6844694Eeb2C2B8Ce6f05
+INFO [04-11|15:35:26.781] Committing new mining work               number=14 sealhash=00b3b2…a53b4d uncles=0 txs=1 gas=141140  fees=0.00014114  elapsed=1.374ms
+INFO [04-11|15:35:33.428] Successfully sealed new block            number=14 sealhash=00b3b2…a53b4d hash=eaea21…0d710d elapsed=6.647s
+INFO [04-11|15:35:33.428] 🔗 block reached canonical chain          number=7  hash=bff348…6981da
+INFO [04-11|15:35:33.428] 🔨 mined potential block                  number=14 hash=eaea21…0d710d
+INFO [04-11|15:35:33.429] Committing new mining work               number=15 sealhash=4b39a7…9fed59 uncles=0 txs=0 gas=0       fees=0           elapsed=395.262µs
+WARN [04-11|15:35:33.429] Sealing paused, waiting for transactions 
+INFO [04-11|15:36:38.949] Submitted transaction                    fullhash=0xb3a083a8cc122c00f22615b2c05058da88ffea7708382689dd01b7ae65fa8b66 recipient=0x5F5cC5332cF7080215E6844694Eeb2C2B8Ce6f05
+INFO [04-11|15:36:39.437] Committing new mining work               number=15 sealhash=c772ad…47061a uncles=0 txs=1 gas=105626  fees=0.000105626 elapsed=1.231ms
+INFO [04-11|15:36:46.016] Successfully sealed new block            number=15 sealhash=c772ad…47061a hash=dc457e…00b40e elapsed=6.579s
+INFO [04-11|15:36:46.017] 🔗 block reached canonical chain          number=8  hash=960f04…f9af3a
+INFO [04-11|15:36:46.017] 🔨 mined potential block                  number=15 hash=dc457e…00b40e
+INFO [04-11|15:36:46.017] Committing new mining work               number=16 sealhash=0330f5…b91192 uncles=0 txs=0 gas=0       fees=0           elapsed=506.662µs
+WARN [04-11|15:36:46.017] Sealing paused, waiting for transactions 
+INFO [04-11|15:50:41.282] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-11|15:50:41.751] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-11|15:51:16.751] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-11|16:20:41.988] Looking for peers                        peercount=0 tried=0 static=0
+WARN [04-11|16:20:42.477] System clock seems off by 5h29m58.587273255s, which can prevent network connectivity 
+WARN [04-11|16:20:42.477] Please enable network time synchronisation in system settings. 
+INFO [04-11|16:21:16.988] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-11|16:47:20.700] Submitted transaction                    fullhash=0x1a2d7232459dd599fa4d71cc1f1145828c17f16e0cbdd5834001c3c690967712 recipient=0x5F5cC5332cF7080215E6844694Eeb2C2B8Ce6f05
+INFO [04-11|16:47:22.467] Committing new mining work               number=16 sealhash=2c9b1d…d9e8f0 uncles=0 txs=1 gas=141780  fees=0.00014178  elapsed=1.729ms
+INFO [04-11|16:47:29.133] Successfully sealed new block            number=16 sealhash=2c9b1d…d9e8f0 hash=598197…57da6a elapsed=6.666s
+INFO [04-11|16:47:29.133] 🔗 block reached canonical chain          number=9  hash=45cbbd…af945c
+INFO [04-11|16:47:29.133] 🔨 mined potential block                  number=16 hash=598197…57da6a
+WARN [04-11|16:47:29.133] Sealing paused, waiting for transactions 
+INFO [04-11|16:47:29.133] Committing new mining work               number=17 sealhash=c95bb5…9ad230 uncles=0 txs=0 gas=0       fees=0           elapsed=535.069µs
+INFO [04-11|16:50:41.283] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-11|16:50:42.207] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-11|16:51:17.207] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-11|17:20:42.444] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-11|17:21:17.444] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-11|17:32:21.529] Submitted transaction                    fullhash=0xbb9ebaa1c326410097df5eca3d239d5533a7dc687a876593905f1542cc5eedc9 recipient=0x5F5cC5332cF7080215E6844694Eeb2C2B8Ce6f05
+INFO [04-11|17:32:23.413] Committing new mining work               number=17 sealhash=bc94a5…e4cdf3 uncles=0 txs=1 gas=90626   fees=9.0626e-05  elapsed=1.355ms
+INFO [04-11|17:32:25.171] Submitted transaction                    fullhash=0x7d25252347ab1a8a00bbd8ef7495fffde78f0767c042dd5ea98f416e382f5094 recipient=0x5F5cC5332cF7080215E6844694Eeb2C2B8Ce6f05
+INFO [04-11|17:32:26.414] Committing new mining work               number=17 sealhash=f65bf9…f23419 uncles=0 txs=2 gas=181252  fees=0.000181252 elapsed=1.754ms
+INFO [04-11|17:32:28.401] Submitted transaction                    fullhash=0x6c518528b10d312329744948b5a020daa17d3f64ef2ae33322e2286feed88802 recipient=0x5F5cC5332cF7080215E6844694Eeb2C2B8Ce6f05
+INFO [04-11|17:32:29.415] Committing new mining work               number=17 sealhash=7e52c1…e8aa4a uncles=0 txs=3 gas=271878  fees=0.000271878 elapsed=2.269ms
+INFO [04-11|17:32:36.939] Successfully sealed new block            number=17 sealhash=7e52c1…e8aa4a hash=5d1ef9…d19778 elapsed=7.524s
+INFO [04-11|17:32:36.939] 🔗 block reached canonical chain          number=10 hash=48eb69…29cdbe
+INFO [04-11|17:32:36.939] 🔨 mined potential block                  number=17 hash=5d1ef9…d19778
+INFO [04-11|17:32:36.941] Committing new mining work               number=18 sealhash=b18f55…1e18b7 uncles=0 txs=0 gas=0       fees=0           elapsed=689.896µs
+WARN [04-11|17:32:36.942] Sealing paused, waiting for transactions 
+INFO [04-11|17:32:36.943] Committing new mining work               number=18 sealhash=b18f55…1e18b7 uncles=0 txs=0 gas=0       fees=0           elapsed=2.729ms
+INFO [04-11|17:32:39.826] Submitted transaction                    fullhash=0x0e8362050dd64eab052032da3c7c9e581d53fe00831ba6bde0051086f7f94dbd recipient=0x5F5cC5332cF7080215E6844694Eeb2C2B8Ce6f05
+INFO [04-11|17:32:39.942] Committing new mining work               number=18 sealhash=dc5b58…30fbc3 uncles=0 txs=1 gas=90626   fees=9.0626e-05  elapsed=1.305ms
+INFO [04-11|17:32:46.918] Successfully sealed new block            number=18 sealhash=dc5b58…30fbc3 hash=bda8f4…436c1c elapsed=6.977s
+INFO [04-11|17:32:46.919] 🔗 block reached canonical chain          number=11 hash=2c6637…cacf6c
+INFO [04-11|17:32:46.919] 🔨 mined potential block                  number=18 hash=bda8f4…436c1c
+INFO [04-11|17:32:46.919] Committing new mining work               number=19 sealhash=b17385…302fc9 uncles=0 txs=0 gas=0       fees=0           elapsed=481.02µs
+WARN [04-11|17:32:46.919] Sealing paused, waiting for transactions 
+INFO [04-11|17:44:16.688] Submitted transaction                    fullhash=0x023dc20ab76437b05e14c43ecb9f55789e066afbf8203c1c906f8241d6b1207b recipient=0x5F5cC5332cF7080215E6844694Eeb2C2B8Ce6f05
+INFO [04-11|17:44:16.999] Committing new mining work               number=19 sealhash=c97158…1ee0bb uncles=0 txs=1 gas=90690   fees=9.069e-05   elapsed=1.372ms
+INFO [04-11|17:44:23.678] Successfully sealed new block            number=19 sealhash=c97158…1ee0bb hash=57d8f6…b7e298 elapsed=6.678s
+INFO [04-11|17:44:23.678] 🔗 block reached canonical chain          number=12 hash=5c86fb…a0be62
+INFO [04-11|17:44:23.678] 🔨 mined potential block                  number=19 hash=57d8f6…b7e298
+INFO [04-11|17:44:23.679] Committing new mining work               number=20 sealhash=570dd8…ba026d uncles=0 txs=0 gas=0       fees=0           elapsed=241.586µs
+WARN [04-11|17:44:23.679] Sealing paused, waiting for transactions 
+INFO [04-11|17:45:09.144] Submitted transaction                    fullhash=0xca280eb8d3d052068046573937f150fec385da7ef47275c3ced1066ba98a2ca0 recipient=0x5F5cC5332cF7080215E6844694Eeb2C2B8Ce6f05
+INFO [04-11|17:45:11.685] Committing new mining work               number=20 sealhash=6112cc…6ba9c7 uncles=0 txs=1 gas=90690   fees=9.069e-05   elapsed=1.253ms
+INFO [04-11|17:45:18.378] Successfully sealed new block            number=20 sealhash=6112cc…6ba9c7 hash=1ad983…a5db4a elapsed=6.693s
+INFO [04-11|17:45:18.378] 🔗 block reached canonical chain          number=13 hash=54f714…0cd1db
+INFO [04-11|17:45:18.378] 🔨 mined potential block                  number=20 hash=1ad983…a5db4a
+INFO [04-11|17:45:18.379] Committing new mining work               number=21 sealhash=29978d…04c9da uncles=0 txs=0 gas=0       fees=0           elapsed=362.211µs
+WARN [04-11|17:45:18.379] Sealing paused, waiting for transactions 
+INFO [04-11|17:45:18.379] Committing new mining work               number=21 sealhash=29978d…04c9da uncles=0 txs=0 gas=0       fees=0           elapsed=1.287ms
+INFO [04-11|17:50:41.282] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-11|17:50:41.672] Looking for peers                        peercount=0 tried=0 static=0
+WARN [04-11|17:50:44.522] System clock seems off by 5h29m58.459052346s, which can prevent network connectivity 
+WARN [04-11|17:50:44.523] Please enable network time synchronisation in system settings. 
+INFO [04-11|17:50:57.126] Submitted transaction                    fullhash=0x814f06b2e57b9a79c8d61d1e56e7ebde6deb43baff9986ff39d09c0fb702a61a recipient=0x5F5cC5332cF7080215E6844694Eeb2C2B8Ce6f05
+INFO [04-11|17:50:57.413] Committing new mining work               number=21 sealhash=305b2c…5d52e4 uncles=0 txs=1 gas=90626   fees=9.0626e-05  elapsed=1.331ms
+INFO [04-11|17:51:16.673] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-11|17:51:21.881] Successfully sealed new block            number=21 sealhash=305b2c…5d52e4 hash=eace03…712ece elapsed=24.467s
+INFO [04-11|17:51:21.881] 🔗 block reached canonical chain          number=14 hash=eaea21…0d710d
+INFO [04-11|17:51:21.881] 🔨 mined potential block                  number=21 hash=eace03…712ece
+INFO [04-11|17:51:21.882] Committing new mining work               number=22 sealhash=e595eb…283f14 uncles=0 txs=0 gas=0       fees=0           elapsed=402.286µs
+WARN [04-11|17:51:21.882] Sealing paused, waiting for transactions 
+INFO [04-11|17:51:21.883] Committing new mining work               number=22 sealhash=e595eb…283f14 uncles=0 txs=0 gas=0       fees=0           elapsed=1.425ms
+INFO [04-11|17:52:41.560] Submitted transaction                    fullhash=0x7f40bcff38faf42552f96fb5b33b97be7c28400a01eec1e32c8005bb80733c4f recipient=0x5F5cC5332cF7080215E6844694Eeb2C2B8Ce6f05
+INFO [04-11|17:52:42.890] Committing new mining work               number=22 sealhash=832e18…b1498d uncles=0 txs=1 gas=90690   fees=9.069e-05   elapsed=1.192ms
+INFO [04-11|17:52:49.331] Successfully sealed new block            number=22 sealhash=832e18…b1498d hash=07062f…fee5f4 elapsed=6.440s
+INFO [04-11|17:52:49.331] 🔗 block reached canonical chain          number=15 hash=dc457e…00b40e
+INFO [04-11|17:52:49.331] 🔨 mined potential block                  number=22 hash=07062f…fee5f4
+INFO [04-11|17:52:49.331] Committing new mining work               number=23 sealhash=298a02…d47b4d uncles=0 txs=0 gas=0       fees=0           elapsed=340.459µs
+WARN [04-11|17:52:49.331] Sealing paused, waiting for transactions 
+INFO [04-11|17:53:26.830] Submitted transaction                    fullhash=0x407dbd86f711e8bfcdd4f5734f46f58e34a3dcb32fba38aedd6a606b80021fe6 recipient=0x5F5cC5332cF7080215E6844694Eeb2C2B8Ce6f05
+INFO [04-11|17:53:28.335] Committing new mining work               number=23 sealhash=a939d1…4f3fc5 uncles=0 txs=1 gas=90690   fees=9.069e-05   elapsed=812.223µs
+INFO [04-11|17:53:34.933] Successfully sealed new block            number=23 sealhash=a939d1…4f3fc5 hash=9d0c92…3d2621 elapsed=6.597s
+INFO [04-11|17:53:34.933] 🔗 block reached canonical chain          number=16 hash=598197…57da6a
+INFO [04-11|17:53:34.933] 🔨 mined potential block                  number=23 hash=9d0c92…3d2621
+INFO [04-11|17:53:34.933] Committing new mining work               number=24 sealhash=a295e0…85db29 uncles=0 txs=0 gas=0       fees=0           elapsed=369.223µs
+WARN [04-11|17:53:34.933] Sealing paused, waiting for transactions 
+INFO [04-11|18:10:56.225] Submitted transaction                    fullhash=0x4f4dfc653792923e3c015bcac51266fc808f53f647e5f567b2b25b74d93b3965 recipient=0x5F5cC5332cF7080215E6844694Eeb2C2B8Ce6f05
+INFO [04-11|18:10:59.046] Committing new mining work               number=24 sealhash=3af87f…5987f9 uncles=0 txs=1 gas=142100  fees=0.0001421   elapsed=2.020ms
+INFO [04-11|18:11:07.004] Successfully sealed new block            number=24 sealhash=3af87f…5987f9 hash=44c123…c1d2d7 elapsed=7.958s
+INFO [04-11|18:11:07.005] 🔗 block reached canonical chain          number=17 hash=5d1ef9…d19778
+INFO [04-11|18:11:07.005] Committing new mining work               number=25 sealhash=2176d7…a6227f uncles=0 txs=0 gas=0       fees=0           elapsed=531.347µs
+WARN [04-11|18:11:07.005] Sealing paused, waiting for transactions 
+INFO [04-11|18:11:07.005] 🔨 mined potential block                  number=24 hash=44c123…c1d2d7
+INFO [04-11|18:11:44.424] Submitted transaction                    fullhash=0xb71e23344e62c0ddbc65fa1fc3e8d9fc82e8891497c4add6e287f67e8b8f4bd5 recipient=0x5F5cC5332cF7080215E6844694Eeb2C2B8Ce6f05
+INFO [04-11|18:11:46.009] Committing new mining work               number=25 sealhash=00620e…4bbe1a uncles=0 txs=1 gas=90690   fees=9.069e-05   elapsed=1.062ms
+INFO [04-11|18:11:52.631] 🔗 block reached canonical chain          number=18 hash=bda8f4…436c1c
+WARN [04-11|18:11:52.631] Sealing paused, waiting for transactions 
+INFO [04-11|18:11:52.631] Committing new mining work               number=26 sealhash=c35c3d…ceb642 uncles=0 txs=0 gas=0       fees=0           elapsed=463.325µs
+INFO [04-11|18:11:52.630] Successfully sealed new block            number=25 sealhash=00620e…4bbe1a hash=f70109…ddc1ce elapsed=6.621s
+INFO [04-11|18:11:52.631] 🔨 mined potential block                  number=25 hash=f70109…ddc1ce
+INFO [04-11|18:20:41.902] Looking for peers                        peercount=0 tried=0 static=0
+WARN [04-11|18:20:42.889] System clock seems off by 5h29m58.440207725s, which can prevent network connectivity 
+WARN [04-11|18:20:42.889] Please enable network time synchronisation in system settings. 
+INFO [04-11|18:21:16.902] Looking for peers                        peercount=0 tried=8 static=0
+WARN [04-11|18:43:25.286] Served eth_sendTransaction               conn=127.0.0.1:42542 reqid=13845 t=1.384908ms err="authentication needed: password or unlock"
+INFO [04-11|18:44:45.795] Submitted contract creation              fullhash=0xfc2794f6b2289dfe684dc4113fa60b10aeaa30e8f35c7c449f2615eb820d2ae9 contract=0xBdEB7e08aAE383c05d0c0096Ef8dCbfBa99Ba918
+INFO [04-11|18:44:46.843] Committing new mining work               number=26 sealhash=ee4ddc…84a915 uncles=0 txs=1 gas=4134322 fees=0.004134322 elapsed=1.256ms
+INFO [04-11|18:44:53.380] Successfully sealed new block            number=26 sealhash=ee4ddc…84a915 hash=b9bf63…9b7f8e elapsed=6.536s
+INFO [04-11|18:44:53.380] 🔗 block reached canonical chain          number=19 hash=57d8f6…b7e298
+INFO [04-11|18:44:53.381] 🔨 mined potential block                  number=26 hash=b9bf63…9b7f8e
+INFO [04-11|18:44:53.381] Committing new mining work               number=27 sealhash=8fa1d8…d38db3 uncles=0 txs=0 gas=0       fees=0           elapsed=505.506µs
+WARN [04-11|18:44:53.381] Sealing paused, waiting for transactions 
+INFO [04-11|18:46:22.580] Submitted transaction                    fullhash=0x4ae65f9fe84f6de904373cd1d9bd91a7e4bd5f37f6cb9397b3ab91ebbfffcf1b recipient=0xBdEB7e08aAE383c05d0c0096Ef8dCbfBa99Ba918
+INFO [04-11|18:46:23.390] Committing new mining work               number=27 sealhash=87dc47…f1a21f uncles=0 txs=1 gas=60648   fees=6.0648e-05  elapsed=1.123ms
+INFO [04-11|18:46:29.968] Successfully sealed new block            number=27 sealhash=87dc47…f1a21f hash=b313e8…d0dbd5 elapsed=6.577s
+INFO [04-11|18:46:29.968] 🔗 block reached canonical chain          number=20 hash=1ad983…a5db4a
+INFO [04-11|18:46:29.968] 🔨 mined potential block                  number=27 hash=b313e8…d0dbd5
+INFO [04-11|18:46:29.968] Committing new mining work               number=28 sealhash=507c68…5e236a uncles=0 txs=0 gas=0       fees=0           elapsed=471.489µs
+WARN [04-11|18:46:29.968] Sealing paused, waiting for transactions 
+INFO [04-11|18:48:00.763] Submitted transaction                    fullhash=0x56170bcc37baca63dc4c44403c1ef67dc7c38524d071c638e6b2ea8504d36873 recipient=0xBdEB7e08aAE383c05d0c0096Ef8dCbfBa99Ba918
+INFO [04-11|18:48:02.978] Committing new mining work               number=28 sealhash=d230b4…446db6 uncles=0 txs=1 gas=146691  fees=0.000146691 elapsed=1.236ms
+INFO [04-11|18:48:09.516] Successfully sealed new block            number=28 sealhash=d230b4…446db6 hash=61bb15…ee5596 elapsed=6.538s
+INFO [04-11|18:48:09.517] 🔗 block reached canonical chain          number=21 hash=eace03…712ece
+INFO [04-11|18:48:09.517] 🔨 mined potential block                  number=28 hash=61bb15…ee5596
+INFO [04-11|18:48:09.517] Committing new mining work               number=29 sealhash=af0ec1…9d0629 uncles=0 txs=0 gas=0       fees=0           elapsed=364.903µs
+WARN [04-11|18:48:09.517] Sealing paused, waiting for transactions 
+INFO [04-11|18:49:16.676] Submitted transaction                    fullhash=0xfadf524f611574705a953e7b41b4109aafe48ef39b3a052f6b1d92869120fc68 recipient=0xBdEB7e08aAE383c05d0c0096Ef8dCbfBa99Ba918
+INFO [04-11|18:49:18.525] Committing new mining work               number=29 sealhash=47514f…3c337c uncles=0 txs=1 gas=201005  fees=0.000201005 elapsed=1.601ms
+INFO [04-11|18:49:25.066] Successfully sealed new block            number=29 sealhash=47514f…3c337c hash=f9e54b…004607 elapsed=6.540s
+INFO [04-11|18:49:25.067] 🔗 block reached canonical chain          number=22 hash=07062f…fee5f4
+INFO [04-11|18:49:25.067] 🔨 mined potential block                  number=29 hash=f9e54b…004607
+INFO [04-11|18:49:25.067] Committing new mining work               number=30 sealhash=26d7ee…b5b2a2 uncles=0 txs=0 gas=0       fees=0           elapsed=453.467µs
+WARN [04-11|18:49:25.067] Sealing paused, waiting for transactions 
+INFO [04-11|18:50:18.237] Submitted transaction                    fullhash=0x52de9125a852c1469ecca11278f920ce532187b719f8e0070aae2a2ba1bfa65e recipient=0xBdEB7e08aAE383c05d0c0096Ef8dCbfBa99Ba918
+INFO [04-11|18:50:19.074] Committing new mining work               number=30 sealhash=02df3b…8aca0c uncles=0 txs=1 gas=157122  fees=0.000157122 elapsed=1.343ms
+INFO [04-11|18:50:25.564] Successfully sealed new block            number=30 sealhash=02df3b…8aca0c hash=f75a05…d66a2f elapsed=6.491s
+INFO [04-11|18:50:25.565] 🔗 block reached canonical chain          number=23 hash=9d0c92…3d2621
+INFO [04-11|18:50:25.565] 🔨 mined potential block                  number=30 hash=f75a05…d66a2f
+INFO [04-11|18:50:25.565] Committing new mining work               number=31 sealhash=c09a9b…83ac83 uncles=0 txs=0 gas=0       fees=0           elapsed=348.06µs
+WARN [04-11|18:50:25.565] Sealing paused, waiting for transactions 
+INFO [04-11|18:50:41.282] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-11|18:50:42.126] Looking for peers                        peercount=0 tried=0 static=0
+WARN [04-11|18:50:43.050] System clock seems off by 5h29m58.395111029s, which can prevent network connectivity 
+WARN [04-11|18:50:43.050] Please enable network time synchronisation in system settings. 
+INFO [04-11|18:51:17.126] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-11|18:51:29.709] Submitted transaction                    fullhash=0xfbdd45ca20093fe0d7e43a237e410a14500ab8542b6a7610bd814bb821fcda94 recipient=0xBdEB7e08aAE383c05d0c0096Ef8dCbfBa99Ba918
+INFO [04-11|18:51:31.573] Committing new mining work               number=31 sealhash=01402a…725fae uncles=0 txs=1 gas=105648  fees=0.000105648 elapsed=1.193ms
+INFO [04-11|18:51:58.186] Successfully sealed new block            number=31 sealhash=01402a…725fae hash=c6dc4a…721ba2 elapsed=26.612s
+INFO [04-11|18:51:58.186] 🔗 block reached canonical chain          number=24 hash=44c123…c1d2d7
+INFO [04-11|18:51:58.186] 🔨 mined potential block                  number=31 hash=c6dc4a…721ba2
+INFO [04-11|18:51:58.186] Committing new mining work               number=32 sealhash=bb8429…2fa529 uncles=0 txs=0 gas=0       fees=0           elapsed=415.441µs
+WARN [04-11|18:51:58.186] Sealing paused, waiting for transactions 
+INFO [04-11|18:53:53.536] Submitted transaction                    fullhash=0xd0accc3d27ea3636cbb63eae91a86da4f781242d8344a6ea5e5d164f302b1f64 recipient=0xBdEB7e08aAE383c05d0c0096Ef8dCbfBa99Ba918
+INFO [04-11|18:53:55.200] Committing new mining work               number=32 sealhash=794587…1b52f9 uncles=0 txs=1 gas=147392  fees=0.000147392 elapsed=1.389ms
+INFO [04-11|18:54:01.818] Successfully sealed new block            number=32 sealhash=794587…1b52f9 hash=db67f1…86d5ae elapsed=6.618s
+INFO [04-11|18:54:01.819] 🔗 block reached canonical chain          number=25 hash=f70109…ddc1ce
+INFO [04-11|18:54:01.819] 🔨 mined potential block                  number=32 hash=db67f1…86d5ae
+INFO [04-11|18:54:01.819] Committing new mining work               number=33 sealhash=b44521…81b896 uncles=0 txs=0 gas=0       fees=0           elapsed=586.669µs
+WARN [04-11|18:54:01.819] Sealing paused, waiting for transactions 
+INFO [04-11|18:55:44.940] Submitted transaction                    fullhash=0x51d6c623c63842719431f166327c9f9f1e4b29ea00b962ed9181423c831457de recipient=0xBdEB7e08aAE383c05d0c0096Ef8dCbfBa99Ba918
+INFO [04-11|18:55:46.832] Committing new mining work               number=33 sealhash=eac2d5…b063e7 uncles=0 txs=1 gas=108852  fees=0.000108852 elapsed=1.291ms
+INFO [04-11|18:55:53.267] Successfully sealed new block            number=33 sealhash=eac2d5…b063e7 hash=970146…55a5d9 elapsed=6.434s
+INFO [04-11|18:55:53.267] 🔗 block reached canonical chain          number=26 hash=b9bf63…9b7f8e
+INFO [04-11|18:55:53.267] 🔨 mined potential block                  number=33 hash=970146…55a5d9
+WARN [04-11|18:55:53.267] Sealing paused, waiting for transactions 
+INFO [04-11|18:55:53.267] Committing new mining work               number=34 sealhash=0defaa…948e8c uncles=0 txs=0 gas=0       fees=0           elapsed=479.51µs
+INFO [04-11|19:20:42.350] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-11|19:21:17.351] Looking for peers                        peercount=0 tried=8 static=0
+WARN [04-11|19:36:06.053] Served eth_sendTransaction               conn=127.0.0.1:43192 reqid=15725 t=2.736833ms err="authentication needed: password or unlock"
+INFO [04-11|19:37:00.312] Submitted contract creation              fullhash=0x378eb181ef4aa116a7a8e17defbf8553358fb24d8e9afb203fc3edd74da9e8d0 contract=0xfbAD319D430e941692c89a8d1d0b47700020313D
+INFO [04-11|19:37:02.533] Committing new mining work               number=34 sealhash=54c212…f646e0 uncles=0 txs=1 gas=4686166 fees=0.004686166 elapsed=1.565ms
+INFO [04-11|19:37:08.891] Successfully sealed new block            number=34 sealhash=54c212…f646e0 hash=123f2e…1cb3cf elapsed=6.357s
+INFO [04-11|19:37:08.891] 🔗 block reached canonical chain          number=27 hash=b313e8…d0dbd5
+INFO [04-11|19:37:08.891] 🔨 mined potential block                  number=34 hash=123f2e…1cb3cf
+INFO [04-11|19:37:08.892] Committing new mining work               number=35 sealhash=42abb3…e45701 uncles=0 txs=0 gas=0       fees=0           elapsed=514.787µs
+WARN [04-11|19:37:08.892] Sealing paused, waiting for transactions 
+INFO [04-11|19:40:21.183] Submitted transaction                    fullhash=0xc9a2856dde2040fe9700d226f62337803ffa2063f3993eb54410ca1bdc881d2d recipient=0xfbAD319D430e941692c89a8d1d0b47700020313D
+INFO [04-11|19:40:23.910] Committing new mining work               number=35 sealhash=e7e4a4…6b95fa uncles=0 txs=1 gas=166685  fees=0.000166685 elapsed=1.564ms
+INFO [04-11|19:40:30.491] Successfully sealed new block            number=35 sealhash=e7e4a4…6b95fa hash=4557b5…e2bd07 elapsed=6.581s
+INFO [04-11|19:40:30.491] 🔗 block reached canonical chain          number=28 hash=61bb15…ee5596
+INFO [04-11|19:40:30.491] 🔨 mined potential block                  number=35 hash=4557b5…e2bd07
+INFO [04-11|19:40:30.492] Committing new mining work               number=36 sealhash=702a45…a112e5 uncles=0 txs=0 gas=0       fees=0           elapsed=371.625µs
+WARN [04-11|19:40:30.493] Sealing paused, waiting for transactions 
+INFO [04-11|19:40:30.493] Committing new mining work               number=36 sealhash=702a45…a112e5 uncles=0 txs=0 gas=0       fees=0           elapsed=1.363ms
+INFO [04-11|19:41:09.201] Submitted transaction                    fullhash=0x615756372046743d981c2c54e0df85a379c79e82d60641eb8be734a27e5836d8 recipient=0xfbAD319D430e941692c89a8d1d0b47700020313D
+INFO [04-11|19:41:09.497] Committing new mining work               number=36 sealhash=dba70e…726c3e uncles=0 txs=1 gas=200921  fees=0.000200921 elapsed=1.322ms
+INFO [04-11|19:41:16.020] Successfully sealed new block            number=36 sealhash=dba70e…726c3e hash=f79350…e2c8a1 elapsed=6.523s
+INFO [04-11|19:41:16.021] 🔗 block reached canonical chain          number=29 hash=f9e54b…004607
+INFO [04-11|19:41:16.021] 🔨 mined potential block                  number=36 hash=f79350…e2c8a1
+INFO [04-11|19:41:16.021] Committing new mining work               number=37 sealhash=dd8184…faae65 uncles=0 txs=0 gas=0       fees=0           elapsed=470.231µs
+WARN [04-11|19:41:16.021] Sealing paused, waiting for transactions 
+INFO [04-11|19:41:40.314] Submitted transaction                    fullhash=0x055e99869507dda19ee24b85a7fcd8cbb9ef17b75b66398405e8c8fb66490c8e recipient=0xfbAD319D430e941692c89a8d1d0b47700020313D
+INFO [04-11|19:41:43.025] Committing new mining work               number=37 sealhash=990cff…92c0d2 uncles=0 txs=1 gas=156908  fees=0.000156908 elapsed=1.320ms
+INFO [04-11|19:41:49.501] Successfully sealed new block            number=37 sealhash=990cff…92c0d2 hash=dfb98c…955a66 elapsed=6.476s
+INFO [04-11|19:41:49.501] 🔗 block reached canonical chain          number=30 hash=f75a05…d66a2f
+INFO [04-11|19:41:49.501] 🔨 mined potential block                  number=37 hash=dfb98c…955a66
+INFO [04-11|19:41:49.501] Committing new mining work               number=38 sealhash=fbb673…f2e78d uncles=0 txs=0 gas=0       fees=0           elapsed=534.52µs
+WARN [04-11|19:41:49.502] Sealing paused, waiting for transactions 
+INFO [04-11|19:42:32.710] Submitted transaction                    fullhash=0x58e8cdffa09913fa70f35338b5594e83f6b1446b06105ce93953b7bfd1867abe recipient=0xfbAD319D430e941692c89a8d1d0b47700020313D
+INFO [04-11|19:42:34.507] Committing new mining work               number=38 sealhash=12036b…0c10fd uncles=0 txs=1 gas=105626  fees=0.000105626 elapsed=1.081ms
+INFO [04-11|19:42:40.990] Successfully sealed new block            number=38 sealhash=12036b…0c10fd hash=4666b6…acf3c5 elapsed=6.483s
+INFO [04-11|19:42:40.990] 🔗 block reached canonical chain          number=31 hash=c6dc4a…721ba2
+INFO [04-11|19:42:40.990] 🔨 mined potential block                  number=38 hash=4666b6…acf3c5
+INFO [04-11|19:42:40.991] Committing new mining work               number=39 sealhash=6c9757…e37c41 uncles=0 txs=0 gas=0       fees=0           elapsed=455.3µs
+WARN [04-11|19:42:40.991] Sealing paused, waiting for transactions 
+INFO [04-11|19:44:30.201] Submitted transaction                    fullhash=0x4dce820c0e146e18798e4ee1af0658333b262df3352b568e85691b6e8574fe1a recipient=0xfbAD319D430e941692c89a8d1d0b47700020313D
+INFO [04-11|19:44:32.003] Committing new mining work               number=39 sealhash=d4e153…9e17c5 uncles=0 txs=1 gas=147392  fees=0.000147392 elapsed=1.385ms
+INFO [04-11|19:44:38.644] Successfully sealed new block            number=39 sealhash=d4e153…9e17c5 hash=07d9b5…8e0204 elapsed=6.641s
+INFO [04-11|19:44:38.645] 🔗 block reached canonical chain          number=32 hash=db67f1…86d5ae
+INFO [04-11|19:44:38.645] 🔨 mined potential block                  number=39 hash=07d9b5…8e0204
+INFO [04-11|19:44:38.645] Committing new mining work               number=40 sealhash=07596a…76a10e uncles=0 txs=0 gas=0       fees=0           elapsed=516.42µs
+WARN [04-11|19:44:38.645] Sealing paused, waiting for transactions 
+INFO [04-11|19:45:16.079] Submitted transaction                    fullhash=0x6f056343b50e93aa28f37ab24cfcf1e029cba7de9219e0dfae08334b8660a867 recipient=0xfbAD319D430e941692c89a8d1d0b47700020313D
+INFO [04-11|19:45:17.649] Committing new mining work               number=40 sealhash=e9688a…c2ff4f uncles=0 txs=1 gas=134760  fees=0.00013476  elapsed=1.169ms
+INFO [04-11|19:45:24.363] Successfully sealed new block            number=40 sealhash=e9688a…c2ff4f hash=dbb875…6fecb1 elapsed=6.713s
+INFO [04-11|19:45:24.363] 🔗 block reached canonical chain          number=33 hash=970146…55a5d9
+INFO [04-11|19:45:24.363] 🔨 mined potential block                  number=40 hash=dbb875…6fecb1
+INFO [04-11|19:45:24.363] Committing new mining work               number=41 sealhash=4a638d…f13e74 uncles=0 txs=0 gas=0       fees=0           elapsed=370.748µs
+WARN [04-11|19:45:24.363] Sealing paused, waiting for transactions 
+INFO [04-11|19:46:45.005] Submitted transaction                    fullhash=0xcddce0803511688d6f8651a9d6e721db26fa33d400b48627508eadd24022b844 recipient=0xfbAD319D430e941692c89a8d1d0b47700020313D
+INFO [04-11|19:46:45.373] Committing new mining work               number=41 sealhash=938083…dff7e6 uncles=0 txs=1 gas=37804   fees=3.7804e-05  elapsed=1.150ms
+INFO [04-11|19:47:09.996] Successfully sealed new block            number=41 sealhash=938083…dff7e6 hash=8c7c90…b895dd elapsed=24.623s
+INFO [04-11|19:47:09.996] 🔗 block reached canonical chain          number=34 hash=123f2e…1cb3cf
+INFO [04-11|19:47:09.996] 🔨 mined potential block                  number=41 hash=8c7c90…b895dd
+INFO [04-11|19:47:09.996] Committing new mining work               number=42 sealhash=ebcdb8…281216 uncles=0 txs=0 gas=0       fees=0           elapsed=458.832µs
+WARN [04-11|19:47:09.996] Sealing paused, waiting for transactions 
+INFO [04-11|19:47:34.525] Submitted transaction                    fullhash=0x43d7e1a7d251d77401694bf9eb256db854b0fbfe861ef59474605fff3e2e945a recipient=0xfbAD319D430e941692c89a8d1d0b47700020313D
+INFO [04-11|19:47:36.999] Committing new mining work               number=42 sealhash=5ec499…4e8d90 uncles=0 txs=1 gas=33554   fees=3.3554e-05  elapsed=1.152ms
+INFO [04-11|19:47:43.562] Successfully sealed new block            number=42 sealhash=5ec499…4e8d90 hash=17b531…9e62ed elapsed=6.562s
+INFO [04-11|19:47:43.562] 🔗 block reached canonical chain          number=35 hash=4557b5…e2bd07
+INFO [04-11|19:47:43.562] 🔨 mined potential block                  number=42 hash=17b531…9e62ed
+INFO [04-11|19:47:43.562] Committing new mining work               number=43 sealhash=a8b06d…1cd919 uncles=0 txs=0 gas=0       fees=0           elapsed=418.522µs
+WARN [04-11|19:47:43.563] Sealing paused, waiting for transactions 
+INFO [04-11|19:50:41.282] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-11|19:50:41.565] Looking for peers                        peercount=0 tried=0 static=0
+WARN [04-11|19:50:43.501] System clock seems off by 5h29m58.326134211s, which can prevent network connectivity 
+WARN [04-11|19:50:43.502] Please enable network time synchronisation in system settings. 
+INFO [04-11|19:51:16.566] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-11|20:20:41.839] Looking for peers                        peercount=0 tried=0 static=0
+WARN [04-11|20:20:42.730] System clock seems off by 5h29m58.283950736s, which can prevent network connectivity 
+WARN [04-11|20:20:42.731] Please enable network time synchronisation in system settings. 
+INFO [04-11|20:21:16.840] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-11|20:50:41.282] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-11|20:50:42.053] Looking for peers                        peercount=0 tried=0 static=0
+WARN [04-11|20:50:43.697] System clock seems off by 5h29m58.247455856s, which can prevent network connectivity 
+WARN [04-11|20:50:43.698] Please enable network time synchronisation in system settings. 
+INFO [04-11|20:51:17.054] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-11|21:20:42.282] Looking for peers                        peercount=0 tried=0 static=0
+WARN [04-11|21:20:43.163] System clock seems off by 5h29m58.21180539s, which can prevent network connectivity 
+WARN [04-11|21:20:43.163] Please enable network time synchronisation in system settings. 
+INFO [04-11|21:21:17.283] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-11|21:50:41.282] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-11|21:50:41.511] Looking for peers                        peercount=0 tried=0 static=0
+WARN [04-11|21:50:43.728] System clock seems off by 5h29m58.233441706s, which can prevent network connectivity 
+WARN [04-11|21:50:43.728] Please enable network time synchronisation in system settings. 
+INFO [04-11|21:51:16.511] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-11|22:00:48.087] Submitted transaction                    fullhash=0xb421d3ffa99ff1e96dfe3a8bd7c885a5b77bae9bd305752f0ae049f9788d887e recipient=0xfbAD319D430e941692c89a8d1d0b47700020313D
+INFO [04-11|22:00:50.414] Committing new mining work               number=43 sealhash=e88c07…3c401d uncles=0 txs=1 gas=134504  fees=0.000134504 elapsed=1.435ms
+INFO [04-11|22:00:56.963] Successfully sealed new block            number=43 sealhash=e88c07…3c401d hash=d54f85…b98f2f elapsed=6.549s
+INFO [04-11|22:00:56.963] 🔗 block reached canonical chain          number=36 hash=f79350…e2c8a1
+INFO [04-11|22:00:56.963] 🔨 mined potential block                  number=43 hash=d54f85…b98f2f
+INFO [04-11|22:00:56.964] Committing new mining work               number=44 sealhash=df0596…32b96d uncles=0 txs=0 gas=0       fees=0           elapsed=219.837µs
+WARN [04-11|22:00:56.964] Sealing paused, waiting for transactions 
+INFO [04-11|22:00:56.964] Committing new mining work               number=44 sealhash=df0596…32b96d uncles=0 txs=0 gas=0       fees=0           elapsed=869.529µs
+INFO [04-11|22:05:43.321] Submitted transaction                    fullhash=0x63fdf2f80bcbf55722586fb2555dddc9a541c234ef868f7020b871d09272daaf recipient=0xfbAD319D430e941692c89a8d1d0b47700020313D
+INFO [04-11|22:05:44.996] Committing new mining work               number=44 sealhash=b8a555…07ab79 uncles=0 txs=1 gas=134888  fees=0.000134888 elapsed=1.668ms
+INFO [04-11|22:05:51.598] Successfully sealed new block            number=44 sealhash=b8a555…07ab79 hash=129677…0625eb elapsed=6.602s
+INFO [04-11|22:05:51.598] 🔗 block reached canonical chain          number=37 hash=dfb98c…955a66
+INFO [04-11|22:05:51.598] 🔨 mined potential block                  number=44 hash=129677…0625eb
+INFO [04-11|22:05:51.599] Committing new mining work               number=45 sealhash=46bdd0…5e6ba1 uncles=0 txs=0 gas=0       fees=0           elapsed=379.189µs
+WARN [04-11|22:05:51.599] Sealing paused, waiting for transactions 
+INFO [04-11|22:06:55.929] Submitted transaction                    fullhash=0xf873fa15e4f9f0c3d8790f12c0dec7c24620761a4ceb658db6806a4cf076c3e2 recipient=0xfbAD319D430e941692c89a8d1d0b47700020313D
+INFO [04-11|22:06:57.608] Committing new mining work               number=45 sealhash=46f4bf…178d2d uncles=0 txs=1 gas=134952  fees=0.000134952 elapsed=836.435µs
+INFO [04-11|22:07:04.023] Successfully sealed new block            number=45 sealhash=46f4bf…178d2d hash=b9a31e…bfd072 elapsed=6.414s
+INFO [04-11|22:07:04.023] 🔗 block reached canonical chain          number=38 hash=4666b6…acf3c5
+INFO [04-11|22:07:04.023] 🔨 mined potential block                  number=45 hash=b9a31e…bfd072
+INFO [04-11|22:07:04.024] Committing new mining work               number=46 sealhash=0bbcc6…04ef02 uncles=0 txs=0 gas=0       fees=0           elapsed=379.797µs
+WARN [04-11|22:07:04.024] Sealing paused, waiting for transactions 
+INFO [04-11|22:08:01.537] Submitted transaction                    fullhash=0x0e58fe09d023c2e6e26a259001cfd2fc9636d09db517d49cf2ba051bda109c6c recipient=0xfbAD319D430e941692c89a8d1d0b47700020313D
+INFO [04-11|22:08:04.031] Committing new mining work               number=46 sealhash=2c63e2…ac06a8 uncles=0 txs=1 gas=134696  fees=0.000134696 elapsed=1.383ms
+INFO [04-11|22:08:10.378] Successfully sealed new block            number=46 sealhash=2c63e2…ac06a8 hash=6ab4c3…8de540 elapsed=6.346s
+INFO [04-11|22:08:10.378] 🔗 block reached canonical chain          number=39 hash=07d9b5…8e0204
+INFO [04-11|22:08:10.378] 🔨 mined potential block                  number=46 hash=6ab4c3…8de540
+INFO [04-11|22:08:10.379] Committing new mining work               number=47 sealhash=5fcd72…04fe43 uncles=0 txs=0 gas=0       fees=0           elapsed=445.872µs
+WARN [04-11|22:08:10.379] Sealing paused, waiting for transactions 
+INFO [04-11|22:09:02.474] Submitted transaction                    fullhash=0x6888220cd3eb960907a142629ebb1c365314d315968025e985ebfd59006af4bf recipient=0xfbAD319D430e941692c89a8d1d0b47700020313D
+INFO [04-11|22:09:04.386] Committing new mining work               number=47 sealhash=a59748…62deab uncles=0 txs=1 gas=102892  fees=0.000102892 elapsed=1.188ms
+INFO [04-11|22:09:10.881] Successfully sealed new block            number=47 sealhash=a59748…62deab hash=b383ce…7e54a3 elapsed=6.495s
+INFO [04-11|22:09:10.882] 🔗 block reached canonical chain          number=40 hash=dbb875…6fecb1
+INFO [04-11|22:09:10.882] 🔨 mined potential block                  number=47 hash=b383ce…7e54a3
+INFO [04-11|22:09:10.882] Committing new mining work               number=48 sealhash=8f3954…c236aa uncles=0 txs=0 gas=0       fees=0           elapsed=521.83µs
+WARN [04-11|22:09:10.882] Sealing paused, waiting for transactions 
+INFO [04-11|22:20:41.743] Looking for peers                        peercount=0 tried=0 static=0
+WARN [04-11|22:20:43.454] System clock seems off by 5h29m58.130208561s, which can prevent network connectivity 
+WARN [04-11|22:20:43.454] Please enable network time synchronisation in system settings. 
+INFO [04-11|22:21:16.743] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-11|22:50:41.283] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-11|22:50:42.033] Looking for peers                        peercount=0 tried=0 static=0
+WARN [04-11|22:50:43.013] System clock seems off by 5h29m58.102543344s, which can prevent network connectivity 
+WARN [04-11|22:50:43.013] Please enable network time synchronisation in system settings. 
+INFO [04-11|22:51:17.033] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-11|23:20:42.322] Looking for peers                        peercount=0 tried=0 static=0
+WARN [04-11|23:20:44.156] System clock seems off by 5h29m58.058713019s, which can prevent network connectivity 
+WARN [04-11|23:20:44.156] Please enable network time synchronisation in system settings. 
+INFO [04-11|23:21:17.322] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-11|23:50:41.282] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-11|23:50:41.608] Looking for peers                        peercount=0 tried=0 static=0
+WARN [04-11|23:50:44.110] System clock seems off by 5h29m58.027042788s, which can prevent network connectivity 
+WARN [04-11|23:50:44.110] Please enable network time synchronisation in system settings. 
+INFO [04-11|23:51:16.608] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-12|00:20:41.894] Looking for peers                        peercount=0 tried=0 static=0
+WARN [04-12|00:20:43.589] System clock seems off by 5h29m57.976889934s, which can prevent network connectivity 
+WARN [04-12|00:20:43.589] Please enable network time synchronisation in system settings. 
+INFO [04-12|00:21:16.894] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-12|00:50:41.282] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-12|00:50:42.175] Looking for peers                        peercount=0 tried=0 static=0
+WARN [04-12|00:50:43.605] System clock seems off by 5h29m57.95447557s, which can prevent network connectivity 
+WARN [04-12|00:50:43.605] Please enable network time synchronisation in system settings. 
+INFO [04-12|00:51:17.175] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-12|01:20:42.467] Looking for peers                        peercount=0 tried=0 static=0
+WARN [04-12|01:20:43.497] System clock seems off by 5h29m57.917932121s, which can prevent network connectivity 
+WARN [04-12|01:20:43.497] Please enable network time synchronisation in system settings. 
+INFO [04-12|01:21:17.468] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-12|01:50:41.324] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-12|01:50:41.756] Looking for peers                        peercount=0 tried=0 static=0
+WARN [04-12|01:50:43.481] System clock seems off by 5h29m57.8877471s, which can prevent network connectivity 
+WARN [04-12|01:50:43.481] Please enable network time synchronisation in system settings. 
+INFO [04-12|01:51:16.757] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-12|02:20:42.040] Looking for peers                        peercount=0 tried=0 static=0
+WARN [04-12|02:20:43.836] System clock seems off by 5h29m57.851409164s, which can prevent network connectivity 
+WARN [04-12|02:20:43.837] Please enable network time synchronisation in system settings. 
+INFO [04-12|02:21:17.041] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-12|02:50:41.282] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-12|02:50:42.324] Looking for peers                        peercount=0 tried=0 static=0
+WARN [04-12|02:50:43.904] System clock seems off by 5h29m57.808788381s, which can prevent network connectivity 
+WARN [04-12|02:50:43.904] Please enable network time synchronisation in system settings. 
+INFO [04-12|02:51:17.324] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-12|03:20:41.625] Looking for peers                        peercount=0 tried=0 static=0
+WARN [04-12|03:20:44.523] System clock seems off by 5h29m57.763368167s, which can prevent network connectivity 
+WARN [04-12|03:20:44.523] Please enable network time synchronisation in system settings. 
+INFO [04-12|03:21:16.625] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-12|03:50:41.282] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-12|03:50:41.914] Looking for peers                        peercount=0 tried=0 static=0
+WARN [04-12|03:50:44.740] System clock seems off by 5h29m57.731821097s, which can prevent network connectivity 
+WARN [04-12|03:50:44.741] Please enable network time synchronisation in system settings. 
+INFO [04-12|03:51:16.915] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-12|04:20:42.197] Looking for peers                        peercount=0 tried=0 static=0
+WARN [04-12|04:20:44.619] System clock seems off by 5h29m57.695533508s, which can prevent network connectivity 
+WARN [04-12|04:20:44.619] Please enable network time synchronisation in system settings. 
+INFO [04-12|04:21:17.197] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-12|04:50:41.283] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-12|04:50:41.483] Looking for peers                        peercount=0 tried=0 static=0
+WARN [04-12|04:50:43.478] System clock seems off by 5h29m57.662030613s, which can prevent network connectivity 
+WARN [04-12|04:50:43.478] Please enable network time synchronisation in system settings. 
+INFO [04-12|04:51:16.484] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-12|05:20:41.766] Looking for peers                        peercount=0 tried=0 static=0
+WARN [04-12|05:20:43.717] System clock seems off by 5h29m57.625494449s, which can prevent network connectivity 
+WARN [04-12|05:20:43.718] Please enable network time synchronisation in system settings. 
+INFO [04-12|05:21:16.766] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-12|05:50:41.282] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-12|05:50:42.077] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-12|05:51:17.077] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-12|06:20:42.392] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-12|06:21:17.393] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-12|06:50:41.282] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-12|06:50:41.704] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-12|06:51:16.704] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-12|07:20:42.015] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-12|07:21:17.015] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-12|07:50:41.282] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-12|07:50:42.328] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-12|07:51:17.329] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-12|08:20:41.651] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-12|08:21:16.652] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-12|08:50:41.282] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-12|08:50:41.972] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-12|08:51:16.972] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-12|09:20:42.283] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-12|09:21:17.284] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-12|09:50:41.282] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-12|09:50:41.602] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-12|09:51:16.602] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-12|10:20:41.914] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-12|10:21:16.914] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-12|10:50:41.282] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-12|10:50:42.225] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-12|10:51:17.225] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-12|11:20:41.538] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-12|11:21:16.539] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-12|11:50:41.282] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-12|11:50:41.850] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-12|11:51:16.851] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-12|12:20:42.169] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-12|12:21:17.169] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-12|12:50:41.282] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-12|12:50:42.483] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-12|12:51:17.484] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-12|13:20:41.801] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-12|13:21:16.801] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-12|13:50:41.283] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-12|13:50:42.108] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-12|13:51:17.108] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-12|14:20:42.423] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-12|14:21:17.423] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-12|14:49:04.791] Submitted transaction                    fullhash=0x56684ad41b71cab52136ae78b2e311f096becdc5afd0016f391ae9e15da386f8 recipient=0xfbAD319D430e941692c89a8d1d0b47700020313D
+INFO [04-12|14:49:06.130] Committing new mining work               number=48 sealhash=310313…6060af uncles=0 txs=1 gas=102892  fees=0.000102892 elapsed=983.139µs
+INFO [04-12|14:49:12.631] Successfully sealed new block            number=48 sealhash=310313…6060af hash=de1a5d…03c43d elapsed=6.501s
+INFO [04-12|14:49:12.632] 🔗 block reached canonical chain          number=41 hash=8c7c90…b895dd
+INFO [04-12|14:49:12.632] 🔨 mined potential block                  number=48 hash=de1a5d…03c43d
+INFO [04-12|14:49:12.632] Committing new mining work               number=49 sealhash=c58897…eec995 uncles=0 txs=0 gas=0       fees=0           elapsed=438.699µs
+WARN [04-12|14:49:12.632] Sealing paused, waiting for transactions 
+INFO [04-12|14:50:41.282] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-12|14:50:41.745] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-12|14:51:16.745] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-12|15:20:42.033] Looking for peers                        peercount=0 tried=0 static=0
+WARN [04-12|15:20:51.518] System clock seems off by 5h29m56.88120635s, which can prevent network connectivity 
+WARN [04-12|15:20:51.518] Please enable network time synchronisation in system settings. 
+INFO [04-12|15:21:17.033] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-12|15:50:41.282] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-12|15:50:42.257] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-12|15:51:17.257] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-12|16:20:42.465] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-12|16:21:17.465] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-12|16:50:41.282] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-12|16:50:41.694] Looking for peers                        peercount=0 tried=0 static=0
+WARN [04-12|16:50:44.878] System clock seems off by 5h29m56.855649982s, which can prevent network connectivity 
+WARN [04-12|16:50:44.878] Please enable network time synchronisation in system settings. 
+INFO [04-12|16:51:16.694] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-12|17:17:02.996] Submitted transaction                    fullhash=0x2627a45f5d37357ffc667feb233385f481faa52a42edb764b6ff7c1035e95172 recipient=0xfbAD319D430e941692c89a8d1d0b47700020313D
+INFO [04-12|17:17:04.581] Committing new mining work               number=49 sealhash=a34b87…ac0a4c uncles=0 txs=1 gas=133160  fees=0.00013316  elapsed=1.648ms
+INFO [04-12|17:17:11.142] Successfully sealed new block            number=49 sealhash=a34b87…ac0a4c hash=16fb35…a514a5 elapsed=6.560s
+INFO [04-12|17:17:11.142] 🔗 block reached canonical chain          number=42 hash=17b531…9e62ed
+INFO [04-12|17:17:11.142] 🔨 mined potential block                  number=49 hash=16fb35…a514a5
+INFO [04-12|17:17:11.142] Committing new mining work               number=50 sealhash=6cc7e1…d2afec uncles=0 txs=0 gas=0       fees=0           elapsed=467.962µs
+WARN [04-12|17:17:11.142] Sealing paused, waiting for transactions 
+INFO [04-12|17:19:29.058] Submitted transaction                    fullhash=0xf944250eacbc6e95e5d6a5545c050c74569f9764e4b1bda4bd8197265b22c2cf recipient=0xfbAD319D430e941692c89a8d1d0b47700020313D
+INFO [04-12|17:19:29.157] Committing new mining work               number=50 sealhash=f491b4…6574e1 uncles=0 txs=1 gas=133160  fees=0.00013316  elapsed=1.679ms
+INFO [04-12|17:19:35.801] Successfully sealed new block            number=50 sealhash=f491b4…6574e1 hash=a8d790…a51ea1 elapsed=6.643s
+INFO [04-12|17:19:35.801] 🔗 block reached canonical chain          number=43 hash=d54f85…b98f2f
+INFO [04-12|17:19:35.801] 🔨 mined potential block                  number=50 hash=a8d790…a51ea1
+INFO [04-12|17:19:35.801] Committing new mining work               number=51 sealhash=289b11…c137fe uncles=0 txs=0 gas=0       fees=0           elapsed=514.565µs
+WARN [04-12|17:19:35.801] Sealing paused, waiting for transactions 
+INFO [04-12|17:20:41.902] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-12|17:21:16.902] Looking for peers                        peercount=0 tried=8 static=0
+WARN [04-12|17:27:23.388] Served eth_estimateGas                   conn=127.0.0.1:46226 reqid=680   t=1.95846691s err="gas required exceeds allowance (136173414) or always failing transaction"
+INFO [04-12|17:28:12.283] Submitted transaction                    fullhash=0x629479280d322ab06d36947496050e8fea040f11c67a14b1e6046f8a43646b15 recipient=0xfbAD319D430e941692c89a8d1d0b47700020313D
+INFO [04-12|17:28:14.856] Committing new mining work               number=51 sealhash=a88b6e…192d57 uncles=0 txs=1 gas=133416  fees=0.000133416 elapsed=1.374ms
+INFO [04-12|17:28:39.574] Successfully sealed new block            number=51 sealhash=a88b6e…192d57 hash=212fba…449033 elapsed=24.718s
+INFO [04-12|17:28:39.574] 🔗 block reached canonical chain          number=44 hash=129677…0625eb
+INFO [04-12|17:28:39.574] 🔨 mined potential block                  number=51 hash=212fba…449033
+INFO [04-12|17:28:39.574] Committing new mining work               number=52 sealhash=17c41e…e53a98 uncles=0 txs=0 gas=0       fees=0           elapsed=325.365µs
+WARN [04-12|17:28:39.574] Sealing paused, waiting for transactions 
+INFO [04-12|17:29:18.232] Submitted transaction                    fullhash=0xb452d795f0d9c724ac30b370ab94ea0a7fffd2ac85a174893229bcefc4f7f173 recipient=0xfbAD319D430e941692c89a8d1d0b47700020313D
+INFO [04-12|17:29:18.579] Committing new mining work               number=52 sealhash=0f033a…09546a uncles=0 txs=1 gas=133608  fees=0.000133608 elapsed=1.330ms
+INFO [04-12|17:29:25.061] Successfully sealed new block            number=52 sealhash=0f033a…09546a hash=c5df78…ec7abe elapsed=6.482s
+INFO [04-12|17:29:25.061] 🔗 block reached canonical chain          number=45 hash=b9a31e…bfd072
+INFO [04-12|17:29:25.061] 🔨 mined potential block                  number=52 hash=c5df78…ec7abe
+INFO [04-12|17:29:25.061] Committing new mining work               number=53 sealhash=0bf43d…ee0553 uncles=0 txs=0 gas=0       fees=0           elapsed=412.135µs
+WARN [04-12|17:29:25.061] Sealing paused, waiting for transactions 
+WARN [04-12|17:29:53.316] Served eth_estimateGas                   conn=127.0.0.1:46226 reqid=4120  t=1.405039972s err="gas required exceeds allowance (135907584) or always failing transaction"
+WARN [04-12|17:37:26.452] Served eth_estimateGas                   conn=127.0.0.1:51082 reqid=26    t=1.686871911s err="gas required exceeds allowance (135907584) or always failing transaction"
+WARN [04-12|17:42:59.603] Served eth_estimateGas                   conn=127.0.0.1:48922 reqid=57351 t=2.098654476s err="gas required exceeds allowance (135907584) or always failing transaction"
+WARN [04-12|17:44:23.999] Served eth_estimateGas                   conn=127.0.0.1:44390 reqid=57389 t=1.721310347s err="gas required exceeds allowance (135907584) or always failing transaction"
+INFO [04-12|17:50:41.283] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-12|17:50:42.100] Looking for peers                        peercount=0 tried=0 static=0
+WARN [04-12|17:50:47.126] System clock seems off by 5h29m56.70542565s, which can prevent network connectivity 
+WARN [04-12|17:50:47.126] Please enable network time synchronisation in system settings. 
+INFO [04-12|17:51:17.100] Looking for peers                        peercount=0 tried=8 static=0
+WARN [04-12|18:18:54.240] Served eth_estimateGas                   conn=127.0.0.1:39262 reqid=26    t=1.76376993s  err="gas required exceeds allowance (135907584) or always failing transaction"
+INFO [04-12|18:20:42.433] Looking for peers                        peercount=0 tried=0 static=0
+WARN [04-12|18:20:45.627] System clock seems off by 5h29m56.749465489s, which can prevent network connectivity 
+WARN [04-12|18:20:45.627] Please enable network time synchronisation in system settings. 
+INFO [04-12|18:20:51.008] Submitted transaction                    fullhash=0x55cf1d44da96b358cd686d6e7431b3925ce1ce2a8752815c01f647b2265daff4 recipient=0xfbAD319D430e941692c89a8d1d0b47700020313D
+INFO [04-12|18:20:52.405] Committing new mining work               number=53 sealhash=1e4366…9777c8 uncles=0 txs=1 gas=133672  fees=0.000133672 elapsed=1.502ms
+INFO [04-12|18:20:58.978] Successfully sealed new block            number=53 sealhash=1e4366…9777c8 hash=f9b68b…6ae114 elapsed=6.573s
+INFO [04-12|18:20:58.978] 🔗 block reached canonical chain          number=46 hash=6ab4c3…8de540
+INFO [04-12|18:20:58.978] 🔨 mined potential block                  number=53 hash=f9b68b…6ae114
+INFO [04-12|18:20:58.979] Committing new mining work               number=54 sealhash=1fbb4e…86eed4 uncles=0 txs=0 gas=0       fees=0           elapsed=348.492µs
+WARN [04-12|18:20:58.980] Sealing paused, waiting for transactions 
+INFO [04-12|18:20:58.980] Committing new mining work               number=54 sealhash=1fbb4e…86eed4 uncles=0 txs=0 gas=0       fees=0           elapsed=1.235ms
+INFO [04-12|18:21:17.433] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-12|18:43:22.371] Submitted transaction                    fullhash=0x3ccbaada01c23442d2ed5ebd533704e3871bc5c49bf10f88ed540d3ed8f7f701 recipient=0xfbAD319D430e941692c89a8d1d0b47700020313D
+INFO [04-12|18:43:23.112] Committing new mining work               number=54 sealhash=f98cf4…c8ec03 uncles=0 txs=1 gas=377640  fees=0.00037764  elapsed=2.004ms
+INFO [04-12|18:43:29.727] Successfully sealed new block            number=54 sealhash=f98cf4…c8ec03 hash=648088…8939b4 elapsed=6.614s
+INFO [04-12|18:43:29.727] 🔗 block reached canonical chain          number=47 hash=b383ce…7e54a3
+INFO [04-12|18:43:29.727] 🔨 mined potential block                  number=54 hash=648088…8939b4
+INFO [04-12|18:43:29.727] Committing new mining work               number=55 sealhash=390c6d…f7719f uncles=0 txs=0 gas=0       fees=0           elapsed=388.714µs
+WARN [04-12|18:43:29.727] Sealing paused, waiting for transactions 
+INFO [04-12|18:49:05.053] Submitted transaction                    fullhash=0xfebf48c48dc9fc03b407abd25f6f3513e9b7fe0585b075070a18e754fcfcdf15 recipient=0xfbAD319D430e941692c89a8d1d0b47700020313D
+INFO [04-12|18:49:05.763] Committing new mining work               number=55 sealhash=cce712…98128a uncles=0 txs=1 gas=288183  fees=0.000288183 elapsed=2.239ms
+INFO [04-12|18:49:12.319] Successfully sealed new block            number=55 sealhash=cce712…98128a hash=f30c00…9fd4c7 elapsed=6.556s
+INFO [04-12|18:49:12.319] 🔗 block reached canonical chain          number=48 hash=de1a5d…03c43d
+INFO [04-12|18:49:12.320] 🔨 mined potential block                  number=55 hash=f30c00…9fd4c7
+INFO [04-12|18:49:12.320] Committing new mining work               number=56 sealhash=f6058d…5c98af uncles=0 txs=0 gas=0       fees=0           elapsed=357.396µs
+WARN [04-12|18:49:12.320] Sealing paused, waiting for transactions 
+INFO [04-12|18:50:41.282] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-12|18:50:41.636] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-12|18:51:16.636] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-12|18:51:51.252] Submitted contract creation              fullhash=0x9e610b4f7869d7737e8ec486b621ce9b1793bf03a67a408eb944c33eb790368d contract=0x644315550908961c8b09b0187117C6BB1Cd1992c
+INFO [04-12|18:51:51.337] Committing new mining work               number=56 sealhash=944e19…fda8c5 uncles=0 txs=1 gas=4686166 fees=0.004686166 elapsed=1.499ms
+INFO [04-12|18:51:57.878] Successfully sealed new block            number=56 sealhash=944e19…fda8c5 hash=7d054b…a40c77 elapsed=6.541s
+INFO [04-12|18:51:57.879] 🔗 block reached canonical chain          number=49 hash=16fb35…a514a5
+INFO [04-12|18:51:57.879] 🔨 mined potential block                  number=56 hash=7d054b…a40c77
+INFO [04-12|18:51:57.879] Committing new mining work               number=57 sealhash=43bc58…b27afc uncles=0 txs=0 gas=0       fees=0           elapsed=633.736µs
+WARN [04-12|18:51:57.879] Sealing paused, waiting for transactions 
+INFO [04-12|18:59:43.001] Submitted transaction                    fullhash=0x7a0cdf88fad76d1d87e0e0c5247c00cee90b5b24617ea9f83a2564afd2e2693d recipient=0x644315550908961c8b09b0187117C6BB1Cd1992c
+INFO [04-12|18:59:45.931] Committing new mining work               number=57 sealhash=29d17e…b65f61 uncles=0 txs=1 gas=165981  fees=0.000165981 elapsed=931.58µs
+INFO [04-12|18:59:52.448] Successfully sealed new block            number=57 sealhash=29d17e…b65f61 hash=b3d4f2…c746c6 elapsed=6.517s
+INFO [04-12|18:59:52.448] 🔗 block reached canonical chain          number=50 hash=a8d790…a51ea1
+INFO [04-12|18:59:52.448] 🔨 mined potential block                  number=57 hash=b3d4f2…c746c6
+INFO [04-12|18:59:52.449] Committing new mining work               number=58 sealhash=c4561f…8ab98f uncles=0 txs=0 gas=0       fees=0           elapsed=453.85µs
+WARN [04-12|18:59:52.449] Sealing paused, waiting for transactions 
+INFO [04-12|19:03:37.524] Submitted transaction                    fullhash=0x2ad26520f17c8f3fc20df439a3439d0138754d790955216a8f20b601866b797b recipient=0x644315550908961c8b09b0187117C6BB1Cd1992c
+INFO [04-12|19:03:40.476] Committing new mining work               number=58 sealhash=8eaad2…1b61af uncles=0 txs=1 gas=134440  fees=0.00013444  elapsed=1.221ms
+INFO [04-12|19:03:47.556] Successfully sealed new block            number=58 sealhash=8eaad2…1b61af hash=84ad0c…55a280 elapsed=7.079s
+INFO [04-12|19:03:47.556] 🔗 block reached canonical chain          number=51 hash=212fba…449033
+INFO [04-12|19:03:47.556] 🔨 mined potential block                  number=58 hash=84ad0c…55a280
+INFO [04-12|19:03:47.556] Committing new mining work               number=59 sealhash=c05395…ce6083 uncles=0 txs=0 gas=0       fees=0           elapsed=367.747µs
+WARN [04-12|19:03:47.556] Sealing paused, waiting for transactions 
+INFO [04-12|19:04:13.573] Submitted transaction                    fullhash=0x053f62a594aa0956c2a992298cb5c2f11e030b8713886a9f8d64a21aa4101ab8 recipient=0x644315550908961c8b09b0187117C6BB1Cd1992c
+INFO [04-12|19:04:14.560] Committing new mining work               number=59 sealhash=097669…f03cb3 uncles=0 txs=1 gas=288311  fees=0.000288311 elapsed=1.864ms
+INFO [04-12|19:04:21.067] Successfully sealed new block            number=59 sealhash=097669…f03cb3 hash=183ebb…9111b9 elapsed=6.507s
+INFO [04-12|19:04:21.067] 🔗 block reached canonical chain          number=52 hash=c5df78…ec7abe
+INFO [04-12|19:04:21.067] 🔨 mined potential block                  number=59 hash=183ebb…9111b9
+INFO [04-12|19:04:21.067] Committing new mining work               number=60 sealhash=e6a7e6…bf0244 uncles=0 txs=0 gas=0       fees=0           elapsed=402.848µs
+WARN [04-12|19:04:21.068] Sealing paused, waiting for transactions 
+INFO [04-12|19:14:55.166] Submitted transaction                    fullhash=0x3badae10562660abcad5daa36e05c243db92b1be66b8c9bb133de9bc6e295457 recipient=0x644315550908961c8b09b0187117C6BB1Cd1992c
+INFO [04-12|19:14:57.138] Committing new mining work               number=60 sealhash=a489a1…f0ef08 uncles=0 txs=1 gas=288247  fees=0.000288247 elapsed=1.993ms
+INFO [04-12|19:15:03.757] Successfully sealed new block            number=60 sealhash=a489a1…f0ef08 hash=9526d7…abc66c elapsed=6.619s
+INFO [04-12|19:15:03.757] 🔗 block reached canonical chain          number=53 hash=f9b68b…6ae114
+INFO [04-12|19:15:03.757] 🔨 mined potential block                  number=60 hash=9526d7…abc66c
+INFO [04-12|19:15:03.757] Committing new mining work               number=61 sealhash=bcc2e4…1980b6 uncles=0 txs=0 gas=0       fees=0           elapsed=356.931µs
+WARN [04-12|19:15:03.758] Sealing paused, waiting for transactions 
+INFO [04-12|19:20:41.894] Looking for peers                        peercount=0 tried=0 static=0
+WARN [04-12|19:20:44.576] System clock seems off by 5h29m56.656349852s, which can prevent network connectivity 
+WARN [04-12|19:20:44.576] Please enable network time synchronisation in system settings. 
+INFO [04-12|19:21:16.894] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-12|19:50:41.282] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-12|19:50:42.128] Looking for peers                        peercount=0 tried=0 static=0
+WARN [04-12|19:50:46.123] System clock seems off by 5h29m56.651696795s, which can prevent network connectivity 
+WARN [04-12|19:50:46.123] Please enable network time synchronisation in system settings. 
+INFO [04-12|19:51:17.128] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-12|20:20:42.325] Looking for peers                        peercount=0 tried=0 static=0
+WARN [04-12|20:20:46.125] System clock seems off by 5h29m56.609097878s, which can prevent network connectivity 
+WARN [04-12|20:20:46.126] Please enable network time synchronisation in system settings. 
+INFO [04-12|20:21:17.325] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-12|20:35:08.742] Submitted transaction                    fullhash=0xee41536afb6ceb962295eae937f06f8fddf2a1757bc8596422e6b299147f7b1c recipient=0x644315550908961c8b09b0187117C6BB1Cd1992c
+INFO [04-12|20:35:10.268] Committing new mining work               number=61 sealhash=785056…0d32f5 uncles=0 txs=1 gas=221427  fees=0.000221427 elapsed=1.867ms
+INFO [04-12|20:35:36.877] Successfully sealed new block            number=61 sealhash=785056…0d32f5 hash=5e0bb0…ef1b5c elapsed=26.608s
+INFO [04-12|20:35:36.877] 🔗 block reached canonical chain          number=54 hash=648088…8939b4
+INFO [04-12|20:35:36.877] 🔨 mined potential block                  number=61 hash=5e0bb0…ef1b5c
+INFO [04-12|20:35:36.878] Committing new mining work               number=62 sealhash=360c44…21ba55 uncles=0 txs=0 gas=0       fees=0           elapsed=511.331µs
+WARN [04-12|20:35:36.878] Sealing paused, waiting for transactions 
+INFO [04-12|20:50:41.282] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-12|20:50:41.578] Looking for peers                        peercount=0 tried=0 static=0
+WARN [04-12|20:50:44.957] System clock seems off by 5h29m56.560626571s, which can prevent network connectivity 
+WARN [04-12|20:50:44.957] Please enable network time synchronisation in system settings. 
+INFO [04-12|20:51:16.579] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-12|21:20:41.869] Looking for peers                        peercount=0 tried=0 static=0
+WARN [04-12|21:20:46.081] System clock seems off by 5h29m56.535811877s, which can prevent network connectivity 
+WARN [04-12|21:20:46.081] Please enable network time synchronisation in system settings. 
+INFO [04-12|21:21:16.869] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-12|21:50:41.282] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-12|21:50:42.155] Looking for peers                        peercount=0 tried=0 static=0
+WARN [04-12|21:50:45.384] System clock seems off by 5h29m56.524038979s, which can prevent network connectivity 
+WARN [04-12|21:50:45.384] Please enable network time synchronisation in system settings. 
+INFO [04-12|21:51:17.155] Looking for peers                        peercount=0 tried=7 static=0
+INFO [04-12|22:20:42.469] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-12|22:21:17.469] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-12|22:50:41.282] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-12|22:50:41.788] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-12|22:51:16.788] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-12|23:20:42.107] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-12|23:21:17.107] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-12|23:50:41.282] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-12|23:50:42.421] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-12|23:51:17.421] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-13|00:20:41.736] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-13|00:21:16.736] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-13|00:50:41.282] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-13|00:50:42.051] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-13|00:51:17.051] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-13|01:20:42.370] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-13|01:21:17.371] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-13|01:50:41.282] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-13|01:50:41.690] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-13|01:51:16.690] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-13|02:20:42.006] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-13|02:21:17.007] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-13|02:50:41.282] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-13|02:50:42.322] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-13|02:51:17.323] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-13|03:20:41.641] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-13|03:21:16.641] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-13|03:50:41.282] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-13|03:50:41.962] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-13|03:51:16.962] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-13|04:20:42.268] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-13|04:21:17.269] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-13|04:50:41.282] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-13|04:50:41.583] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-13|04:51:16.584] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-13|05:20:41.901] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-13|05:21:16.901] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-13|05:50:41.283] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-13|05:50:42.202] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-13|05:51:17.203] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-13|06:20:41.519] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-13|06:21:16.520] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-13|06:50:41.282] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-13|06:50:41.838] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-13|06:51:16.838] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-13|07:20:42.160] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-13|07:21:17.161] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-13|07:50:41.282] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-13|07:50:42.478] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-13|07:51:17.478] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-13|08:20:41.808] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-13|08:21:16.808] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-13|08:50:41.282] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-13|08:50:42.128] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-13|08:51:17.128] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-13|09:20:42.445] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-13|09:21:17.445] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-13|09:50:41.282] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-13|09:50:41.772] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-13|09:51:16.772] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-13|10:20:42.092] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-13|10:21:17.092] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-13|10:50:41.282] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-13|10:50:42.431] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-13|10:51:17.432] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-13|11:20:41.753] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-13|11:21:16.754] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-13|11:50:41.282] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-13|11:50:42.076] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-13|11:51:17.077] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-13|12:20:42.394] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-13|12:21:17.395] Looking for peers                        peercount=0 tried=7 static=0
+INFO [04-13|12:50:41.283] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-13|12:50:41.696] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-13|12:51:16.696] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-13|12:57:45.658] HTTP endpoint closed                     url=http://127.0.0.1:8543
+INFO [04-13|12:57:45.658] IPC endpoint closed                      url=/root/go/bin/node1/geth.ipc
+INFO [04-13|12:57:45.659] Writing cached state to disk             block=61 hash=5e0bb0…ef1b5c root=fd312c…5ab765

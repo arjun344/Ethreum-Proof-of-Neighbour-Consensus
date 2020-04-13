@@ -1,0 +1,32 @@
+INFO [04-09|17:53:17.369] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [04-09|17:53:17.376] Starting peer-to-peer node               instance=Geth/v1.9.12-unstable/linux-amd64/go1.13.3
+INFO [04-09|17:53:17.376] Allocated trie memory caches             clean=256.00MiB dirty=256.00MiB
+INFO [04-09|17:53:17.376] Allocated cache and file handles         database=/root/go/bin/node2/geth/chaindata cache=512.00MiB handles=524288
+INFO [04-09|17:53:17.606] Opened ancient database                  database=/root/go/bin/node2/geth/chaindata/ancient
+INFO [04-09|17:53:17.607] Initialised chain configuration          config="{ChainID: 15 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: <nil> Constantinople: <nil> Petersburg: <nil> Istanbul: <nil>, Muir Glacier: <nil>, Engine: unknown}"
+INFO [04-09|17:53:17.607] Disk storage enabled for ethash caches   dir=/root/go/bin/node2/geth/ethash count=3
+INFO [04-09|17:53:17.607] Disk storage enabled for ethash DAGs     dir=/root/.ethash                  count=2
+INFO [04-09|17:53:17.607] Initialising Ethereum protocol           versions="[65 64 63]" network=1234 dbversion=7
+WARN [04-09|17:53:17.608] Head state missing, repairing chain      number=510 hash=ab6349…d22f33
+INFO [04-09|17:53:17.638] Rewound blockchain to past state         number=1   hash=9d1221…33aa2c
+INFO [04-09|17:53:17.638] Loaded most recent local header          number=510 hash=ab6349…d22f33 td=510 age=20s
+INFO [04-09|17:53:17.638] Loaded most recent local full block      number=1   hash=9d1221…33aa2c td=1   age=47m23s
+INFO [04-09|17:53:17.638] Loaded most recent local fast block      number=510 hash=ab6349…d22f33 td=510 age=20s
+INFO [04-09|17:53:17.639] Loaded local transaction journal         transactions=0 dropped=0
+INFO [04-09|17:53:17.639] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [04-09|17:53:17.639] Switch sync mode from fast sync to full sync 
+INFO [04-09|17:53:17.819] New local node record                    seq=3 id=3eb388086b50cf76 ip=127.0.0.1 udp=30304 tcp=30304
+INFO [04-09|17:53:17.820] Started P2P networking                   self=enode://1803f6281375139ca781dfe0a18cf9449c6345b377056a5fe306756029a9ac6971dfea61f665d7dce0f8d88f03c2986e3ec51e2e7456a1af93f7e69652840f65@127.0.0.1:30304
+INFO [04-09|17:53:17.827] IPC endpoint opened                      url=/root/go/bin/node2/geth.ipc
+INFO [04-09|17:53:17.828] HTTP endpoint opened                     url=http://127.0.0.1:8543       cors=* vhosts=localhost
+INFO [04-09|17:53:17.921] Etherbase automatically configured       address=0x766bAfE97791502578a1aCEA5093bF800Be664d7
+INFO [04-09|17:53:28.923] Looking for peers                        peercount=0 tried=8 static=0
+INFO [04-09|17:53:52.820] Looking for peers                        peercount=0 tried=0 static=0
+INFO [04-09|17:55:21.515] HTTP endpoint closed                     url=http://127.0.0.1:8543
+INFO [04-09|17:55:21.515] IPC endpoint closed                      url=/root/go/bin/node2/geth.ipc
+INFO [04-09|17:55:21.516] Writing cached state to disk             block=1 hash=9d1221…33aa2c root=540c4b…b16861
+INFO [04-09|17:55:21.516] Persisted trie from memory database      nodes=0 size=0.00B time=9.426µs gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [04-09|17:55:21.516] Blockchain manager stopped 
+INFO [04-09|17:55:21.516] Stopping Ethereum protocol 
+INFO [04-09|17:55:21.516] Ethereum protocol stopped 
+INFO [04-09|17:55:21.516] Transaction pool stopped 

@@ -1,0 +1,42 @@
+=============== Apr 11, 2020 (EDT) ===============
+11:41:20.526284 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:41:20.609159 db@open opening
+11:41:20.634150 version@stat F·[] S·0B[] Sc·[]
+11:41:20.689502 db@janitor F·2 G·0
+11:41:20.689604 db@open done T·80.363394ms
+11:41:20.706976 db@close closing
+11:41:20.707260 db@close done T·269.694µs
+=============== Apr 11, 2020 (EDT) ===============
+11:41:47.439310 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:41:47.439476 version@stat F·[] S·0B[] Sc·[]
+11:41:47.439507 db@open opening
+11:41:47.439559 journal@recovery F·1
+11:41:47.444884 journal@recovery recovering @1
+11:41:47.493945 memdb@flush created L0@2 N·10 S·591B "H\xcc\xfa..;\xd6],v3":"r\x00\x00..;\xd6],v5"
+11:41:47.497704 version@stat F·[1] S·591B[591B] Sc·[0.25]
+11:41:47.606689 db@janitor F·3 G·0
+11:41:47.606733 db@open done T·167.211055ms
+11:42:09.249050 db@close closing
+11:42:09.249341 db@close done T·285.425µs
+=============== Apr 11, 2020 (EDT) ===============
+11:42:12.256524 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:42:12.256831 version@stat F·[1] S·591B[591B] Sc·[0.25]
+11:42:12.256894 db@open opening
+11:42:12.257032 journal@recovery F·1
+11:42:12.262466 journal@recovery recovering @3
+11:42:12.305677 memdb@flush created L0@5 N·1 S·192B "Dat..ion,v12":"Dat..ion,v12"
+11:42:12.311699 version@stat F·[2] S·783B[783B] Sc·[0.50]
+11:42:12.407467 db@janitor F·4 G·0
+11:42:12.407539 db@open done T·150.615554ms
+11:49:18.194029 db@close closing
+11:49:18.194188 db@close done T·158.402µs
+=============== Apr 11, 2020 (EDT) ===============
+11:50:41.082423 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:50:41.082748 version@stat F·[2] S·783B[783B] Sc·[0.50]
+11:50:41.082791 db@open opening
+11:50:41.082869 journal@recovery F·1
+11:50:41.087573 journal@recovery recovering @6
+11:50:41.163592 memdb@flush created L0@8 N·39 S·1KiB "@\x9e\t..~\xbc\x94,v52":"\xbah\xe9..\xbauB,v51"
+11:50:41.168717 version@stat F·[3] S·2KiB[2KiB] Sc·[0.75]
+11:50:41.276652 db@janitor F·5 G·0
+11:50:41.276759 db@open done T·193.911829ms
